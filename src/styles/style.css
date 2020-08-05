@@ -1,0 +1,102 @@
+#screen {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  margin-left: -175px;
+  background-color: #572f4a;
+  width: 350px;
+  height: 700px;
+  border-radius: 35px;
+}
+
+#menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #9bd9e8;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  opacity: 50%;
+}
+
+#wheel {
+  font-weight: 700;
+  vertical-align: center;
+  line-height: 8px;
+  font-size: 40px;
+  background-color: #356ae6;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+  top: -30px;
+  border: 5px solid #9bd9e8;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  transition: top .5s .1s,
+  			  left .5s .1s,
+  			  transform .5s .1s;
+
+}
+
+
+.spoke {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  top: -25px;
+  z-index: -1;
+  border: 0;
+  transition: top .5s .1s,
+  			  left .5s .1s;
+}
+
+.spoke-1 {
+  left: 35%;
+  top: -60px;
+}
+
+.spoke-2 {
+  top: -100px;  
+}
+
+.spoke-3 {
+  left: 65%;
+  top: -60px;
+}
+
+.rotate {
+  transform: rotate(45deg) scale(0.5);
+}
+
+.shrink {
+  transform: scale(0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
