@@ -1,4 +1,4 @@
-import './styles/style.css';
+//import './styles/style.css';
 const wheel = document.querySelector('#wheel');
 const spokes = document.querySelectorAll('.spoke');
 
